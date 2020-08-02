@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SparkQueries:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b606693-5d0d-4ab6-bbd3-505290dec3f2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fBENAKDCdLd3KAsTJohmT5yE7N" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fafic\SparkQueries\target" />
+      <recent name="C:\Users\fafic\SparkQueries" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fafic\SparkQueries" />
+      <recent name="C:\Users\fafic\SparkQueries\test\target" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Query3" />
+      <module name="SparkQueries" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkQueries [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Docker.Unnamed" />
+      <item itemvalue="Maven.SparkQueries [clean,install]" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b606693-5d0d-4ab6-bbd3-505290dec3f2" name="Default Changelist" comment="" />
+      <created>1595683042372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595683042372</updated>
+      <workItem from="1595683045955" duration="6185000" />
+      <workItem from="1595841933519" duration="13114000" />
+      <workItem from="1595869799877" duration="5097000" />
+      <workItem from="1595878375853" duration="2556000" />
+      <workItem from="1595881413731" duration="574000" />
+      <workItem from="1595918314542" duration="10430000" />
+      <workItem from="1595942435465" duration="843000" />
+      <workItem from="1596028660038" duration="5643000" />
+      <workItem from="1596292766923" duration="844000" />
+      <workItem from="1596360862963" duration="1750000" />
+      <workItem from="1596365147273" duration="7772000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="185" key="#Docker" timestamp="1595692005242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="185" key="#Docker/0.0.1920.1040@0.0.1920.1040" timestamp="1595692005242" />
+    <state x="552" y="178" key="#Project_Structure" timestamp="1595859998688">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1595859998688" />
+    <state x="414" y="175" width="1092" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595871497538">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595871497538" />
+    <state x="700" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596032892171">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="700" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596032892171" />
+    <state x="1130" y="320" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1595871114546">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1130" y="320" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595871114546" />
+    <state x="717" y="383" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595919821012">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="717" y="383" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1595919821012" />
+    <state x="740" y="268" key="FileChooserDialogImpl" timestamp="1595868075760">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="268" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595868075760" />
+    <state width="1879" height="284" key="GridCell.Tab.0.bottom" timestamp="1595871538777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595871538777" />
+    <state width="1879" height="284" key="GridCell.Tab.0.center" timestamp="1595871538777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595871538777" />
+    <state width="1879" height="284" key="GridCell.Tab.0.left" timestamp="1595871538777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595871538777" />
+    <state width="1879" height="284" key="GridCell.Tab.0.right" timestamp="1595871538777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595871538777" />
+    <state x="880" y="111" key="SettingsEditor" timestamp="1596292952363">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="880" y="111" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596292952363" />
+    <state x="651" y="133" width="618" height="774" key="find.popup" timestamp="1596292845721">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="651" y="133" width="618" height="774" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596292845721" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595924661090">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595924661090" />
+  </component>
+</project>

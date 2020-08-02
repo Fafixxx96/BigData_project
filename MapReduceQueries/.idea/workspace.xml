@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="q1:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5c00756b-a87d-4ac8-a885-bdf9c7aa8f5f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ezyXMrgzxmOrI695mVcNpisPom" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HBase" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fafic\MapReduceQueries\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.MapReduceQueries [clean,install]">
+    <configuration name="HDFS" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_191\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="HDFS" />
+      <module name="MapReduceQueries" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapReduceQueries [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.HDFS" />
+      <item itemvalue="Maven.MapReduceQueries [clean,install]" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c00756b-a87d-4ac8-a885-bdf9c7aa8f5f" name="Default Changelist" comment="" />
+      <created>1595338754661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595338754661</updated>
+      <workItem from="1595338759301" duration="18436000" />
+      <workItem from="1595436868157" duration="593000" />
+      <workItem from="1595443597682" duration="105000" />
+      <workItem from="1595489374437" duration="15041000" />
+      <workItem from="1595574282464" duration="16533000" />
+      <workItem from="1595662532565" duration="56000" />
+      <workItem from="1595942690043" duration="3345000" />
+      <workItem from="1596008487148" duration="7284000" />
+      <workItem from="1596027674709" duration="1216000" />
+      <workItem from="1596208023710" duration="8193000" />
+      <workItem from="1596270669773" duration="4984000" />
+      <workItem from="1596292614759" duration="6147000" />
+      <workItem from="1596305296366" duration="1959000" />
+      <workItem from="1596351450091" duration="2569000" />
+      <workItem from="1596360668358" duration="177000" />
+      <workItem from="1596401418834" duration="286000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1596212817160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1596212817160" />
+    <state x="414" y="175" width="1092" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596267359807">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596267359807" />
+    <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1596266907988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596266907988" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1596360843367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596360843367" />
+    <state width="1879" height="280" key="GridCell.Tab.0.bottom" timestamp="1596303997550">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596303997550" />
+    <state width="1879" height="280" key="GridCell.Tab.0.center" timestamp="1596303997550">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596303997550" />
+    <state width="1879" height="280" key="GridCell.Tab.0.left" timestamp="1596303997550">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596303997550" />
+    <state width="1879" height="280" key="GridCell.Tab.0.right" timestamp="1596303997550">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596303997550" />
+    <state x="963" y="168" key="Maven.ArtifactSearchDialog" timestamp="1596292699412">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="963" y="168" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596292699412" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1596292673188">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596292673188" />
+    <state x="357" y="215" key="new project wizard" timestamp="1596208080562">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="357" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1596208080562" />
+  </component>
+</project>
