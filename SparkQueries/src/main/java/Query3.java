@@ -17,7 +17,7 @@ public class Query3 {
                 .setAppName("Query 3");
         JavaSparkContext sc = new JavaSparkContext(conf);
 
-        JavaRDD<String> data = sc.textFile("regioni.csv"); //un RDD di stringhe
+        JavaRDD<String> data = sc.textFile("file:/D:/Unical/Magistrale/FLESCA_BigDataManagement/project/query3/regioni.csv"); //un RDD di stringhe
         String header = data.first();
         JavaRDD<String> dataset = data.filter(row -> !row.equals(header));
         long giorni = dataset.count()/21; //21 regioni (Trentino suddivisa tra province autonome)
@@ -59,7 +59,7 @@ public class Query3 {
                                                                   .groupByKey()
                                                                   .sortByKey();
 
-        result.saveAsTextFile("out3"); //contained in our server
+        result.saveAsTextFile("file:/D:/Unical/Magistrale/FLESCA_BigDataManagement/project/query3/out/out3"); //contained in our server
 
         sc.stop();
 

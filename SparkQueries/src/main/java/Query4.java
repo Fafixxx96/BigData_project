@@ -13,7 +13,7 @@ public class Query4 {
                 .setAppName("Query 4");
         JavaSparkContext sc = new JavaSparkContext(conf);
 
-        JavaRDD<String> data = sc.textFile("covid_mexico.csv"); //un RDD di stringhe
+        JavaRDD<String> data = sc.textFile("file:/D:/Unical/Magistrale/FLESCA_BigDataManagement/project/query4/in/covid_mexico.csv"); //un RDD di stringhe
         String header = data.first();
 
         JavaRDD<String> dataset = data.filter(row -> !row.equals(header));
@@ -28,7 +28,7 @@ public class Query4 {
 
         JavaPairRDD<String, Iterable<Double>> ris = method(male, 1).union(method(female, 2));
 
-        ris.saveAsTextFile("out4");
+        ris.saveAsTextFile("file:/D:/Unical/Magistrale/FLESCA_BigDataManagement/project/query4/out/out4");
 
         sc.close();
     }

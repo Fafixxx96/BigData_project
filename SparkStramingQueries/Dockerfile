@@ -3,7 +3,7 @@ FROM bde2020/spark-submit:2.4.5-hadoop2.7
 LABEL maintainer="Gezim Sejdiu <g.sejdiu@gmail.com>, Giannis Mouchakis <gmouchakis@gmail.com>"
 
 ENV SPARK_APPLICATION_JAR_NAME SparkStramingQueries-1.0-SNAPSHOT
-ENV SPARK_APPLICATION_MAIN_CLASS Query5
+ENV SPARK_APPLICATION_MAIN_CLASS Query6
 
 COPY template.sh /
 

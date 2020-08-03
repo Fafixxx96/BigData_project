@@ -19,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1fBENAKDCdLd3KAsTJohmT5yE7N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,18 +40,21 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\fafic\SparkQueries\target" />
-      <recent name="C:\Users\fafic\SparkQueries" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\fafic\SparkQueries" />
       <recent name="C:\Users\fafic\SparkQueries\test\target" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fafic\SparkQueries\target" />
+      <recent name="C:\Users\fafic\SparkQueries" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Query3" />
+  <component name="RunManager" selected="Application.Query6">
+    <configuration name="Query6" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Query6" />
       <module name="SparkQueries" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,7 +127,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Query6" />
       <item itemvalue="Docker.Unnamed" />
       <item itemvalue="Maven.SparkQueries [clean,install]" />
     </list>
@@ -158,6 +165,8 @@
       <workItem from="1596292766923" duration="844000" />
       <workItem from="1596360862963" duration="1750000" />
       <workItem from="1596365147273" duration="7772000" />
+      <workItem from="1596438675541" duration="1921000" />
+      <workItem from="1596464632138" duration="1027000" />
     </task>
     <servers />
   </component>
@@ -173,18 +182,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1595859998688" />
-    <state x="414" y="175" width="1092" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595871497538">
+    <state x="414" y="175" width="1092" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596464655967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" width="1092" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595871497538" />
+    <state x="414" y="175" width="1092" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596464655967" />
     <state x="700" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596032892171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="700" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596032892171" />
-    <state x="1130" y="320" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1595871114546">
+    <state x="1130" y="320" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1596464654421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1130" y="320" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595871114546" />
+    <state x="1130" y="320" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596464654421" />
     <state x="717" y="383" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595919821012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -193,22 +202,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="268" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595868075760" />
-    <state width="1879" height="284" key="GridCell.Tab.0.bottom" timestamp="1595871538777">
+    <state width="1879" height="284" key="GridCell.Tab.0.bottom" timestamp="1596464730705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595871538777" />
-    <state width="1879" height="284" key="GridCell.Tab.0.center" timestamp="1595871538777">
+    <state width="1879" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596464730705" />
+    <state width="1879" height="284" key="GridCell.Tab.0.center" timestamp="1596464730704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595871538777" />
-    <state width="1879" height="284" key="GridCell.Tab.0.left" timestamp="1595871538777">
+    <state width="1879" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596464730704" />
+    <state width="1879" height="284" key="GridCell.Tab.0.left" timestamp="1596464730704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595871538777" />
-    <state width="1879" height="284" key="GridCell.Tab.0.right" timestamp="1595871538777">
+    <state width="1879" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596464730704" />
+    <state width="1879" height="284" key="GridCell.Tab.0.right" timestamp="1596464730704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595871538777" />
+    <state width="1879" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596464730704" />
     <state x="880" y="111" key="SettingsEditor" timestamp="1596292952363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
