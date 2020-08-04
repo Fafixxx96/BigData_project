@@ -1,6 +1,7 @@
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
+import org.apache.spark.api.java.StorageLevels;
 import org.apache.spark.api.java.function.VoidFunction2;
 import org.apache.spark.streaming.Durations;
 import org.apache.spark.streaming.Time;
@@ -9,10 +10,14 @@ import org.apache.spark.streaming.api.java.JavaPairDStream;
 import org.apache.spark.streaming.api.java.JavaStreamingContext;
 import scala.Tuple2;
 
+import java.io.IOException;
+
+
 public class Query6 {
 
     private static final String LOCAL_DIR = "out6/";
     private static final int WINDOW_TIME_UNIT_SECS = 5;
+
 
     private static class SaveAsLocalFile implements VoidFunction2<JavaPairRDD<String, Double>, Time> {
 
@@ -33,27 +38,31 @@ public class Query6 {
         }
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, IOException {
 
 
-        SparkConf sparkConf = new SparkConf()
+
+       SparkConf sparkConf = new SparkConf()
                 // Spark Streaming needs at least two working thread
-                .setMaster("local[2]")
+                .setMaster("local[*]")
                 .setAppName("Query6");
 
-        JavaStreamingContext ssc =
-                new JavaStreamingContext(sparkConf, Durations.seconds(15));
+        JavaStreamingContext ssc = new JavaStreamingContext(sparkConf, Durations.seconds(2));
 
 
         ssc.sparkContext().setLogLevel("ERROR");
 
-        //JavaDStream<String> lines = ssc.textFileStream("/file6/");
-        JavaDStream<String> lines = ssc.textFileStream("file:/D:/Unical/Magistrale/FLESCA_BigDataManagement/project/query6/in/");
-        lines.foreachRDD(new Lenght());
 
 
-      //  JavaDStream<String> linesInWindow =lines.window(Durations.seconds(30 * WINDOW_TIME_UNIT_SECS),Durations.seconds(2 * WINDOW_TIME_UNIT_SECS));
-        JavaDStream<String[]> rows = lines.map(row -> row.split(","));
+        JavaDStream<String> lines = ssc.socketTextStream("localhost", 9999, StorageLevels.MEMORY_ONLY);
+
+        //JavaDStream<String> lines = ssc.textFileStream(System.getProperty("user.dir"));
+        //JavaDStream<String> lines = ssc.textFileStream("file:/\D:/\\Unical/Magistrale/FLESCA_BigDataManagement/project/query6/in/");
+        //lines.foreachRDD(new Lenght());
+
+
+        JavaDStream<String> linesInWindow =lines.window(Durations.seconds(30 * WINDOW_TIME_UNIT_SECS),Durations.seconds(2 * WINDOW_TIME_UNIT_SECS));
+        JavaDStream<String[]> rows = linesInWindow.map(row -> row.split(","));
 
 
         JavaPairDStream<String, Double> money = rows.mapToPair(value -> new Tuple2<>(value[5].toString(), Double.parseDouble(value[19].toString())));
@@ -62,6 +71,7 @@ public class Query6 {
         total.print();
         total.foreachRDD(new SaveAsLocalFile());
         ssc.start();
+
         ssc.awaitTermination();
     }
 

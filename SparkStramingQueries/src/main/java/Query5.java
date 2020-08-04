@@ -1,6 +1,7 @@
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
+import org.apache.spark.api.java.StorageLevels;
 import org.apache.spark.api.java.function.VoidFunction2;
 import org.apache.spark.streaming.Durations;
 import org.apache.spark.streaming.Time;
@@ -26,12 +27,9 @@ public class Query5 {
     }
 
     private static class Lenght implements VoidFunction2<JavaRDD<String>, Time> {
-
         @Override
         public void call(JavaRDD<String> v1, Time v2) throws Exception {
             System.out.println(v1.count());
-
-
         }
 
     }
@@ -49,8 +47,9 @@ public class Query5 {
 
         ssc.sparkContext().setLogLevel("ERROR");
 
-        JavaDStream<String> lines = ssc.textFileStream("file5/*");
-        lines.foreachRDD(new Lenght());
+       //JavaDStream<String> lines = ssc.textFileStream("file5/*");
+        JavaDStream<String> lines = ssc.socketTextStream("localhost", 9999, StorageLevels.MEMORY_ONLY);
+        //lines.foreachRDD(new Lenght());
 
         JavaDStream<String> linesInWindow =
                 lines.window(Durations.seconds(30* WINDOW_TIME_UNIT_SECS),

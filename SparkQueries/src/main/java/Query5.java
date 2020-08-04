@@ -25,7 +25,7 @@ public class Query5 {
 
         JavaRDD<String> lines = sc.textFile("file:/D:/Unical/Magistrale/FLESCA_BigDataManagement/project/query5/in/alldates.csv");
 
-        JavaRDD<String[]> rows = lines.map(row -> row.split(","));
+        JavaRDD<String[]> rows = lines.map(row -> row.split(",")).cache(); //because we call two times this RDD
         
 
         JavaPairRDD<String, Double> samples = rows.mapToPair(value -> new Tuple2<>(value[0].toString(), 1.0));

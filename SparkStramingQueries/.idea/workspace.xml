@@ -34,12 +34,21 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Unical\Magistrale\FLESCA_BigDataManagement\project\SparkStramingQueries\file5" />
       <recent name="D:\Unical\Magistrale\FLESCA_BigDataManagement\project\SparkStramingQueries\file6" />
+      <recent name="D:\Unical\Magistrale\FLESCA_BigDataManagement\project\SparkStramingQueries" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Unical\Magistrale\FLESCA_BigDataManagement\project\SparkStramingQueries" />
+      <recent name="D:\Unical\Magistrale\FLESCA_BigDataManagement\project\SparkStramingQueries\file6" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Query6">
+    <configuration name="CSV_Reader" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="CSV_Reader" />
+      <module name="SparkStramingQueries" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Query5" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Query5" />
       <module name="SparkStramingQueries" />
@@ -82,6 +91,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Query6" />
+      <item itemvalue="Application.CSV_Reader" />
       <item itemvalue="Application.Query5" />
       <item itemvalue="Maven.SparkStramingQueries [clean,install]" />
     </list>
@@ -100,7 +110,9 @@
       <workItem from="1596435983509" duration="8003000" />
       <workItem from="1596445652753" duration="643000" />
       <workItem from="1596464590664" duration="38000" />
-      <workItem from="1596464773243" duration="888000" />
+      <workItem from="1596464773243" duration="8461000" />
+      <workItem from="1596526048392" duration="841000" />
+      <workItem from="1596526916846" duration="13000" />
     </task>
     <servers />
   </component>
@@ -108,34 +120,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="223" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596445478584">
+    <state x="414" y="223" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596526240697">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="223" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596445478584" />
+    <state x="414" y="223" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596526240697" />
     <state x="676" y="347" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596440468863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="676" y="347" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596440468863" />
-    <state x="689" y="352" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1596445466986">
+    <state x="689" y="352" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1596476117284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="689" y="352" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596445466986" />
-    <state width="1879" height="281" key="GridCell.Tab.0.bottom" timestamp="1596465608903">
+    <state x="689" y="352" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596476117284" />
+    <state width="1124" height="420" key="GridCell.Tab.0.bottom" timestamp="1596526899865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596465608903" />
-    <state width="1879" height="281" key="GridCell.Tab.0.center" timestamp="1596465608902">
+    <state width="1124" height="420" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596526899865" />
+    <state width="1124" height="420" key="GridCell.Tab.0.center" timestamp="1596526899865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596465608902" />
-    <state width="1879" height="281" key="GridCell.Tab.0.left" timestamp="1596465608902">
+    <state width="1124" height="420" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596526899865" />
+    <state width="1124" height="420" key="GridCell.Tab.0.left" timestamp="1596526899865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596465608902" />
-    <state width="1879" height="281" key="GridCell.Tab.0.right" timestamp="1596465608903">
+    <state width="1124" height="420" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596526899865" />
+    <state width="1124" height="420" key="GridCell.Tab.0.right" timestamp="1596526899865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596465608903" />
+    <state width="1124" height="420" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596526899865" />
     <state x="651" y="262" width="618" height="516" key="find.popup" timestamp="1596444832947">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
